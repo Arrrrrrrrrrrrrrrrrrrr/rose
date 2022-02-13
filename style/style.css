@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(173, 11, 173);
+}
+
+.header-links {
+    padding: 24px 20px;
+    text-align: right;
+}
+
+.header-links a {
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+}
+
+.welcome-inner {
+    text-align: left;
+}
+
+.welcome {
+    color: black;
+    background-repeat: no-repeat;
+}
+
+.welcome-inner h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.welcome-inner h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: rgb(158, 39, 59);
+}
+
+.about-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-inner {
+    text-align: center;
+    padding: 105px 0;
+}
+
+.about-inner h1 {
+    font-size: 50px;
+}
+
+.about-item img {
+    width: 40%;
+}
+
+.about-text {
+    width: 20%;
+    display: inline-block;
+}
+
+.about-text h2 {
+    font-size: 18px;
+}
+
+.about-text p {
+    font-size: 4px;
+}
+
+.about-list {
+    padding: 70px 0 55px;
+}
+
+hr {
+    margin: 105px 0;
+}
+
+.works {
+    background-image: url('../image/works-bg.png');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.works-inner {
+    padding: 100px 0;
+}
+
+.works-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.works-title h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.works-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.works-item {
+    width: 30%;
+}
+
+.works-item h2 {
+    font-size: 18px;
+}
+
+.works-item h2 span {
+    color: #4985ff;
+}
+
+.works-item p {
+    color: #999999;
+}
+
+.footer {
+    background-color: rgb(255, 122, 177);
+}
+
+.footer-content {
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-item {
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item {
+    padding: 15px 0;
+}
+
+.footer-l {
+    padding: 30px 0;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+.about-inner button {
+    padding: 20px 36px;
+    background-color: rgb(77, 126, 189);
+    border: none;
+    color: rgb(13, 58, 95);
+    border-radius: 50px;
+}
+
+.table {
+    width: 100%;
+    background: white;
+    color: white;
+    border-spacing: 5px;
+    margin: 40px;
+    padding: 400px;
+}
+
+.td,
+th {
+    background: rgb(247, 180, 191);
+    padding: 5px;
+}
+
+img {
+    background-size: cover;
+}
+
+.footer-links {
+    size: 40px;
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: auto;
+        margin: 0 10px;
+    }
+    .welcome-inner h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .welcome-inner {
+        padding: 120px 0;
+    }
+    .about-inner h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about-inner p {
+        font-size: 14px;
+    }
+    .about-item {
+        display: block;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .about-list h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .about-list p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .works-list {
+        display: block;
+    }
+    .works-item {
+        width: 100%;
+    }
+    .works-inner {
+        padding: 120px 0;
+    }
+    .works-title h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .works-list h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .works-list p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .header-links {
+        width: auto;
+        margin: 0 10px;
+    }
+    .footer-links {
+        width: auto;
+        margin: 0 10px;
+    }
+    .welcome-inner {
+        width: auto;
+        margin: 0 auto;
+    }
+    .footer-links a {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .footer-title {
+        font-size: 10px;
+        line-height: 30px;
+    }
+}
